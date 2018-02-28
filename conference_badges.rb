@@ -1,2 +1,3 @@
 def badge_maker(name)
-  return "Hello, my name is ${name}"# Write your code here.
+  return "Hello, my name is ${name}"
+end# Write your code here.
