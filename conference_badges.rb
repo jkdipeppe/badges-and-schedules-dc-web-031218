@@ -3,7 +3,8 @@ def badge_maker(name)
 end# Write your code here.
 
 def batch_badge_creator(arr)
-  arr.each{|name| return badge_maker(name)}
+  arr.each{|name| arr_new.push(badge_maker(name))}
+  return arr_new
 end
 
 def assign_rooms()
