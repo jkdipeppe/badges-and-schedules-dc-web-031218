@@ -9,7 +9,8 @@ def batch_badge_creator(arr)
 end
 
 def assign_rooms()
-
+  arr_new = Array.new
+  arr.each_with_index(|name, room| )
 end
 
 def printer
